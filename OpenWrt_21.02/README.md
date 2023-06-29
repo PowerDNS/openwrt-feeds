@@ -27,6 +27,7 @@ Select the architecture that matches your device (use `opkg print-architecture` 
 * [mips_mips32](mips_mips32/)
 * [mipsel_24kc](mipsel_24kc/)
 * [mipsel_74kc](mipsel_74kc/)
+* [mipsel_mips32](mipsel_mips32/)
 * [powerpc_464fp](powerpc_464fp/)
 * [powerpc_8540](powerpc_8540/)
 * [x86_64](x86_64/)
