@@ -1,0 +1,7 @@
+- logo
+- add concurrency lock to at least the gh-pages git pull/push
+- add dispatchable job to shrink gh-pages history (which contains full binary packages)
+- make it possible to update the markdown/HTML template without rebuilding packages?, and related:
+- change from "build everything on push" to a dispatch model
+- update matrix periodically
+- repo.powerdns.com version emits wrong installation instructions (repo url is incomplete)
