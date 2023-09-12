@@ -1,43 +1,43 @@
 Package: dnsdist-full
-Version: 1.8.0-pdns6
+Version: 1.8.1-pdns1
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl3, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: i386_pentium-mmx
-Installed-Size: 1582529
-Filename: dnsdist-full_1.8.0-pdns6_i386_pentium-mmx.ipk
-Size: 1577125
-SHA256sum: 6777eba4e18afc528e2087e57f57a198a92c06fb5fb39e1d6796c92df1d9a865
+Installed-Size: 1585653
+Filename: dnsdist-full_1.8.1-pdns1_i386_pentium-mmx.ipk
+Size: 1580219
+SHA256sum: 46e4242070ddbb62521bd6f71885bc96308849d0284efafe67df2577c7a3a7e7
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist-maindns
-Version: 1.8.0-pdns6
+Version: 1.8.1-pdns1
 Depends: libc, dnsdist, odhcpd
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: all
 Installed-Size: 101
-Filename: dnsdist-maindns_1.8.0-pdns6_all.ipk
+Filename: dnsdist-maindns_1.8.1-pdns1_all.ipk
 Size: 1105
-SHA256sum: 2981b3ec07f4bbe189df61450970afe7dafa513da20f1da3eb343c2364405050
+SHA256sum: 00bc269599424d073002b3d32ed9cc09e00550eb5d87f466411d0b118d52e635
 Description:  This package disables dnsmasq so dnsdist can become the main DNS on the CPE
 
 Package: dnsdist
-Version: 1.8.0-pdns6
+Version: 1.8.1-pdns1
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl3
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: i386_pentium-mmx
-Installed-Size: 757218
-Filename: dnsdist_1.8.0-pdns6_i386_pentium-mmx.ipk
-Size: 758200
-SHA256sum: c572665561c8ce1524046e9e53cfd6d5a7f7d3f389df44c21e9ec1a80f52f3ff
+Installed-Size: 760443
+Filename: dnsdist_1.8.1-pdns1_i386_pentium-mmx.ipk
+Size: 761594
+SHA256sum: d22e18b762c836c240704d4311577d65596451df903b572a20691554ab49e2ae
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
