@@ -1,0 +1,61 @@
+Package: dnsdist-full
+Version: 1.8.2-pdns1
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
+Provides: dnsdist
+Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
+SourceName: dnsdist-full
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsdist:dnsdist
+SourceDateEpoch: 1698668470
+CPE-ID: cpe:/a:powerdns:dnsdist
+Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 1813152
+Filename: dnsdist-full_1.8.2-pdns1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1804886
+SHA256sum: 56ab1673b28f425c9e5bf2dc4203b9fe84c0026e9f7077623b622f5325696c1d
+Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
+ is to route traffic to the best server, delivering top performance to legitimate
+ users while shunting or blocking abusive traffic.
+
+Package: dnsdist-maindns
+Version: 1.8.2-pdns1
+Depends: libc, dnsdist, odhcpd
+Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
+SourceName: dnsdist-maindns
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1698668470
+CPE-ID: cpe:/a:powerdns:dnsdist
+Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
+Architecture: all
+Installed-Size: 95
+Filename: dnsdist-maindns_1.8.2-pdns1_all.ipk
+Size: 1087
+SHA256sum: e4d9bc65d2d912e31583b89061b047360d9e268d839dafdcee5ea95a9870310a
+Description:  This package disables dnsmasq so dnsdist can become the main DNS on the CPE
+
+Package: dnsdist
+Version: 1.8.2-pdns1
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl1.1
+Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
+SourceName: dnsdist
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsdist:dnsdist
+SourceDateEpoch: 1698668470
+CPE-ID: cpe:/a:powerdns:dnsdist
+Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
+Architecture: arm_cortex-a7_neon-vfpv4
+Installed-Size: 790819
+Filename: dnsdist_1.8.2-pdns1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 790140
+SHA256sum: c644e130328fa08317dcaafb7c049679fa1fb9155b0a8a34603588b45adb5f5b
+Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
+ is to route traffic to the best server, delivering top performance to legitimate
+ users while shunting or blocking abusive traffic.
+

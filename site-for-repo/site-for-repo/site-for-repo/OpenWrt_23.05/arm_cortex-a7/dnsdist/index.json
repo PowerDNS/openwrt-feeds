@@ -1,0 +1,1 @@
+{"architecture": "arm_cortex-a7", "packages":{"dnsdist-full": "1.8.2-pdns1", "dnsdist-maindns": "1.8.2-pdns1", "dnsdist": "1.8.2-pdns1"}}

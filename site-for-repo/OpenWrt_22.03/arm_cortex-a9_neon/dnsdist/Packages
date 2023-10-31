@@ -1,0 +1,44 @@
+Package: dnsdist-full
+Version: 1.8.2-pdns1
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
+Provides: dnsdist
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:powerdns:dnsdist
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1811046
+Filename: dnsdist-full_1.8.2-pdns1_arm_cortex-a9_neon.ipk
+Size: 1803085
+SHA256sum: 25572b8ee7f609cf0574c7d084bb16382c721ab9e0f909e32064e16c887338f3
+Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
+ is to route traffic to the best server, delivering top performance to legitimate
+ users while shunting or blocking abusive traffic.
+
+Package: dnsdist-maindns
+Version: 1.8.2-pdns1
+Depends: libc, dnsdist, odhcpd
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:powerdns:dnsdist
+Architecture: all
+Installed-Size: 95
+Filename: dnsdist-maindns_1.8.2-pdns1_all.ipk
+Size: 1087
+SHA256sum: e4d9bc65d2d912e31583b89061b047360d9e268d839dafdcee5ea95a9870310a
+Description:  This package disables dnsmasq so dnsdist can become the main DNS on the CPE
+
+Package: dnsdist
+Version: 1.8.2-pdns1
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl1.1
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:powerdns:dnsdist
+Architecture: arm_cortex-a9_neon
+Installed-Size: 790399
+Filename: dnsdist_1.8.2-pdns1_arm_cortex-a9_neon.ipk
+Size: 789587
+SHA256sum: f3befec864b8852e2d5d0cac554501f3e49df0ab194cb204062e8a550bff0216
+Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
+ is to route traffic to the best server, delivering top performance to legitimate
+ users while shunting or blocking abusive traffic.
+
