@@ -1,12 +1,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=dnsdist
-PKG_VERSION:=1.8.2
+PKG_VERSION:=1.9.0
 PKG_RELEASE:=pdns1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
 PKG_SOURCE_URL:=https://downloads.powerdns.com/releases/
-PKG_HASH:=6688f09b2c52f9bf935f0769f4ee28dd0760e5622dade7b3f4e6fa3776f07ab8
+PKG_HASH:=16bab15cad9245571806398a8e4a5dc32a92b6bb60e617c12fe958c945889c7c
 
 PKG_MAINTAINER:=Peter van Dijk <peter.van.dijk@powerdns.com>
 PKG_LICENSE:=GPL-2.0-only
@@ -102,9 +102,8 @@ define Package/dnsdist
 	  +DNSDIST_LIBEDIT:libedit \
 	  +DNSDIST_DNSTAP:libfstrm \
 	  +DNSDIST_GNUTLS:libgnutls \
-	  +DNSDIST_DNS_OVER_HTTPS:libh2o-evloop \
+	  +DNSDIST_DNS_OVER_HTTPS:libnghttp2 \
 	  +DNSDIST_NET_SNMP:libnetsnmp \
-	  +DNSDIST_DNS_OVER_HTTPS_OUTGOING:libnghttp2 \
 	  +DNSDIST_OPENSSL:libopenssl \
 	  +DNSDIST_SODIUM:libsodium \
 	  +DNSDIST_LMDB:lmdb \
@@ -123,7 +122,6 @@ define Package/dnsdist-full
 	  +libedit \
 	  +libfstrm \
 	  +libgnutls \
-	  +libh2o-evloop \
 	  +libnetsnmp \
 	  +libnghttp2 \
 	  +libopenssl \
@@ -232,7 +230,6 @@ CONFIGURE_ARGS+= \
 	$(if $(call IsEnabled,DNSDIST_IPCIPHER),--enable,--disable)-ipcipher \
 	$(if $(call IsEnabled,DNSDIST_EBPF),--with,--without)-ebpf \
 	$(if $(call IsEnabled,DNSDIST_DNS_OVER_HTTPS),--enable-dns-over-https,) \
-	$(if $(call IsEnabled,DNSDIST_DNS_OVER_HTTPS_OUTGOING),--with,--without)-nghttp2
 
 $(eval $(call BuildPackage,dnsdist))
 $(eval $(call BuildPackage,dnsdist-full))
