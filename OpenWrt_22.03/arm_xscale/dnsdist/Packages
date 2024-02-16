@@ -1,43 +1,43 @@
 Package: dnsdist-full
-Version: 1.8.2-pdns1
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libh2o-evloop, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
+Version: 1.9.0-pdns1
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_xscale
-Installed-Size: 1817834
-Filename: dnsdist-full_1.8.2-pdns1_arm_xscale.ipk
-Size: 1810316
-SHA256sum: 3d9305898ab075a47777867b74c1ce4f73227cd36d022cd679bef5c133484cd8
+Installed-Size: 1900217
+Filename: dnsdist-full_1.9.0-pdns1_arm_xscale.ipk
+Size: 1892473
+SHA256sum: 31e6b3ab2ac322ecd985731816bf478b0db7e60856df36f87819e42a34630c83
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist-maindns
-Version: 1.8.2-pdns1
+Version: 1.9.0-pdns1
 Depends: libc, dnsdist, odhcpd
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: all
 Installed-Size: 95
-Filename: dnsdist-maindns_1.8.2-pdns1_all.ipk
-Size: 1087
-SHA256sum: e4d9bc65d2d912e31583b89061b047360d9e268d839dafdcee5ea95a9870310a
+Filename: dnsdist-maindns_1.9.0-pdns1_all.ipk
+Size: 1079
+SHA256sum: 3525233401dc2315fce676294efa4cb84a5980070f44d007693b8cb4ded22b78
 Description:  This package disables dnsmasq so dnsdist can become the main DNS on the CPE
 
 Package: dnsdist
-Version: 1.8.2-pdns1
-Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libh2o-evloop, libnghttp2-14, libopenssl1.1
+Version: 1.9.0-pdns1
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libnghttp2-14, libopenssl1.1
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_xscale
-Installed-Size: 791178
-Filename: dnsdist_1.8.2-pdns1_arm_xscale.ipk
-Size: 790552
-SHA256sum: 3077c0a23456483efd5208a571ec1c8e0500b4da020fbd7109a93892eb40b714
+Installed-Size: 822828
+Filename: dnsdist_1.9.0-pdns1_arm_xscale.ipk
+Size: 822142
+SHA256sum: 926f862ef1b23cbb7061ada1e033b050f12db4fe3b7cf778376a83ee7ce9c2ce
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
