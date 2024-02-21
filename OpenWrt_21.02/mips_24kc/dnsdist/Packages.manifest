@@ -8,14 +8,14 @@ License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsdist:dnsdist
-SourceDateEpoch: 1708095116
+SourceDateEpoch: 1708552720
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: mips_24kc
-Installed-Size: 1514430
+Installed-Size: 1514420
 Filename: dnsdist-full_1.9.0-pdns1_mips_24kc.ipk
-Size: 1505011
-SHA256sum: 0899de4b1eca2c8828071c5ba9b2327e47bf467b1913d4250a0eb6a4aceb5934
+Size: 1504979
+SHA256sum: b0d055ce4c1e07d5c227fe5cb7b616396a5808a50b4f238590560633914e040a
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
@@ -28,14 +28,14 @@ SourceName: dnsdist-maindns
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1708095116
+SourceDateEpoch: 1708552720
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: all
 Installed-Size: 95
 Filename: dnsdist-maindns_1.9.0-pdns1_all.ipk
-Size: 1079
-SHA256sum: 3525233401dc2315fce676294efa4cb84a5980070f44d007693b8cb4ded22b78
+Size: 1082
+SHA256sum: 527a22805a61cb660c96e6373a4740e74c96cb3b38af40a92de7b7b919ba60cb
 Description:  This package disables dnsmasq so dnsdist can become the main DNS on the CPE
 
 Package: dnsdist
@@ -47,14 +47,14 @@ License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsdist:dnsdist
-SourceDateEpoch: 1708095116
+SourceDateEpoch: 1708552720
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: mips_24kc
-Installed-Size: 646753
+Installed-Size: 646749
 Filename: dnsdist_1.9.0-pdns1_mips_24kc.ipk
-Size: 646163
-SHA256sum: 471c88946eb7ffd0e935b823301cca4ddea877c58d5925529f79b527bdc47227
+Size: 646162
+SHA256sum: 54ef57db04dd678a95b0f8e8d4db1510c28971b474682d2016ae97ce6842ebc0
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

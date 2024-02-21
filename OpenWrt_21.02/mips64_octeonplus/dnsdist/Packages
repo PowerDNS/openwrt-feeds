@@ -6,10 +6,10 @@ License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: mips64_octeonplus
-Installed-Size: 1589960
+Installed-Size: 1589957
 Filename: dnsdist-full_1.9.0-pdns1_mips64_octeonplus.ipk
-Size: 1578560
-SHA256sum: 929384894a3e844791f3ba48fd2715ac23a2667fe101e454bfa36e49a614392b
+Size: 1578687
+SHA256sum: d18d7f18db69d39a7bba95170a04fd56bb58ea4b8c1fb960f3b8ebaefe26e3c4
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
@@ -23,8 +23,8 @@ CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: all
 Installed-Size: 95
 Filename: dnsdist-maindns_1.9.0-pdns1_all.ipk
-Size: 1079
-SHA256sum: 3525233401dc2315fce676294efa4cb84a5980070f44d007693b8cb4ded22b78
+Size: 1082
+SHA256sum: 527a22805a61cb660c96e6373a4740e74c96cb3b38af40a92de7b7b919ba60cb
 Description:  This package disables dnsmasq so dnsdist can become the main DNS on the CPE
 
 Package: dnsdist
@@ -34,10 +34,10 @@ License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: mips64_octeonplus
-Installed-Size: 886470
+Installed-Size: 886466
 Filename: dnsdist_1.9.0-pdns1_mips64_octeonplus.ipk
-Size: 884719
-SHA256sum: 2b838d6242d206dadb060e198d0d94c7af3010cbb48802a30945dc60c9566099
+Size: 884780
+SHA256sum: 90e960fbc1c989e0cac6428aca4dc308e4ca58ee0d6a4d47029f09bb93e05ae3
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

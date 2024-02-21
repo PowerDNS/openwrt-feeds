@@ -8,14 +8,14 @@ License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsdist:dnsdist
-SourceDateEpoch: 1708095116
+SourceDateEpoch: 1708552720
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 1868051
 Filename: dnsdist-full_1.9.0-pdns1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 1860361
-SHA256sum: 5c630657466b23c8f6ee63796da9c6548d7282cb8a2219dc64c98d9a13e921dd
+Size: 1860463
+SHA256sum: effbe88ba720b3b96241ebb90e938e204a4ea5ef3154a39db05843a4e60b2a62
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
@@ -28,14 +28,14 @@ SourceName: dnsdist-maindns
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1708095116
+SourceDateEpoch: 1708552720
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: all
 Installed-Size: 95
 Filename: dnsdist-maindns_1.9.0-pdns1_all.ipk
-Size: 1079
-SHA256sum: 3525233401dc2315fce676294efa4cb84a5980070f44d007693b8cb4ded22b78
+Size: 1082
+SHA256sum: 527a22805a61cb660c96e6373a4740e74c96cb3b38af40a92de7b7b919ba60cb
 Description:  This package disables dnsmasq so dnsdist can become the main DNS on the CPE
 
 Package: dnsdist
@@ -47,14 +47,14 @@ License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsdist:dnsdist
-SourceDateEpoch: 1708095116
+SourceDateEpoch: 1708552720
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 812192
+Installed-Size: 812186
 Filename: dnsdist_1.9.0-pdns1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 811708
-SHA256sum: 4ee778289b2dea62643186499c497ff2bb8dca3ab2914dbdbd0cc7445f80bc7b
+Size: 811767
+SHA256sum: 09afa926b18b3b73a000ef3ee2372b8ce94bbce867737f99a60001ed4142ce02
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

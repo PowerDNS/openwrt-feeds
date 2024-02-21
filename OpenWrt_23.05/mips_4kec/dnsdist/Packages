@@ -6,10 +6,10 @@ License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: mips_4kec
-Installed-Size: 1517548
+Installed-Size: 1517542
 Filename: dnsdist-full_1.9.0-pdns1_mips_4kec.ipk
-Size: 1506904
-SHA256sum: 99097d29b3824e36a80d52d1a9b7d343b6ce9a6d868ed12a32cc6f1bc39bfa0f
+Size: 1506934
+SHA256sum: 0a6e247f3ba11b1c22f0810a4781ed6666f06a79614328ebd6a53343959fa11e
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
@@ -21,10 +21,10 @@ License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: all
-Installed-Size: 103
+Installed-Size: 102
 Filename: dnsdist-maindns_1.9.0-pdns1_all.ipk
-Size: 1110
-SHA256sum: 41565800356728d4b12ddeaf91c3c7a55cfc2f2de67a6cb05a1dd84063437f1e
+Size: 1106
+SHA256sum: 69e19f12b442cd4636240f69fd05aaef890387632cc44a13069474982df1bfce
 Description:  This package disables dnsmasq so dnsdist can become the main DNS on the CPE
 
 Package: dnsdist
@@ -34,10 +34,10 @@ License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: mips_4kec
-Installed-Size: 663395
+Installed-Size: 663394
 Filename: dnsdist_1.9.0-pdns1_mips_4kec.ipk
-Size: 662072
-SHA256sum: 4c9c870c75b2db8aad5ba5ea641eab797ad01d2f658d7ad5ff88ddbd14118737
+Size: 662143
+SHA256sum: 9cd62939768161be7cd59cf495929d67a91685673b87e7f624568b41865cb0fa
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

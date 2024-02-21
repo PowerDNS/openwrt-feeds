@@ -6,10 +6,10 @@ License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 1895171
+Installed-Size: 1895192
 Filename: dnsdist-full_1.9.0-pdns1_arm_cortex-a8_vfpv3.ipk
-Size: 1886495
-SHA256sum: 99059983f4b02597bde7771bb5d682dfa9addf57049eee5f7683bd4929a374bb
+Size: 1886449
+SHA256sum: 51aba1327498be44b023ad47834a3f251bf703d483fde80fdce6fc93c0f35f10
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
@@ -23,8 +23,8 @@ CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: all
 Installed-Size: 95
 Filename: dnsdist-maindns_1.9.0-pdns1_all.ipk
-Size: 1079
-SHA256sum: 3525233401dc2315fce676294efa4cb84a5980070f44d007693b8cb4ded22b78
+Size: 1082
+SHA256sum: 527a22805a61cb660c96e6373a4740e74c96cb3b38af40a92de7b7b919ba60cb
 Description:  This package disables dnsmasq so dnsdist can become the main DNS on the CPE
 
 Package: dnsdist
@@ -34,10 +34,10 @@ License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 822659
+Installed-Size: 822650
 Filename: dnsdist_1.9.0-pdns1_arm_cortex-a8_vfpv3.ipk
-Size: 821808
-SHA256sum: a743a4921f50aea99ad0718cd6de9c8a4fe4f1f71d99a7a2cc54c8e79060f435
+Size: 821822
+SHA256sum: 7d6679fb44f4895c7d74648b7a97ea53532383124ef1c74d2ad960fd2341ee11
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
