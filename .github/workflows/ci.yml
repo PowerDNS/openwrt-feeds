@@ -148,7 +148,7 @@ jobs:
         with:
           path: ./_site
           name: site-for-repo
-          retention-days: 1
+          retention-days: 7
 
   deploy-repo:
     name: Deploy Packages to repo.powerdns.com
