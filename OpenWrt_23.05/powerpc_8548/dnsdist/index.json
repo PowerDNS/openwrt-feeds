@@ -1,1 +1,1 @@
-{"architecture": "powerpc_8548", "packages":{"dnsdist-full": "1.9.0-pdns1", "dnsdist-maindns": "1.9.0-pdns1", "dnsdist": "1.9.0-pdns1"}}
+{"architecture": "powerpc_8548", "packages":{"dnsdist-full": "1.9.1-pdns1", "dnsdist-maindns": "1.9.1-pdns1", "dnsdist": "1.9.1-pdns1"}}
