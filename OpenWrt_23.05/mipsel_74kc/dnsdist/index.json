@@ -1,1 +1,1 @@
-{"architecture": "mipsel_74kc", "packages":{"dnsdist-full": "1.9.1-pdns1", "dnsdist-maindns": "1.9.1-pdns1", "dnsdist": "1.9.1-pdns1"}}
+{"architecture": "mipsel_74kc", "packages":{"dnsdist-full": "1.9.3-pdns1", "dnsdist-maindns": "1.9.3-pdns1", "dnsdist": "1.9.3-pdns1"}}
