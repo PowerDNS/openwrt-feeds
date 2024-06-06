@@ -1,1 +1,1 @@
-{"architecture": "mipsel_mips32", "packages":{"dnsdist-full": "1.9.3-pdns1", "dnsdist-maindns": "1.9.3-pdns1", "dnsdist": "1.9.3-pdns1"}}
+{"architecture": "mipsel_mips32", "packages":{"dnsdist-full": "1.9.4-pdns1", "dnsdist-maindns": "1.9.4-pdns1", "dnsdist": "1.9.4-pdns1"}}

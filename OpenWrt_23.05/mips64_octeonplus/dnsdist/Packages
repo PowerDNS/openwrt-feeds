@@ -1,43 +1,43 @@
 Package: dnsdist-full
-Version: 1.9.3-pdns1
+Version: 1.9.4-pdns1
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libnetsnmp, libnghttp2-14, libopenssl3, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: mips64_octeonplus
-Installed-Size: 1625685
-Filename: dnsdist-full_1.9.3-pdns1_mips64_octeonplus.ipk
-Size: 1613337
-SHA256sum: 5331e49bb4c54adb77805e730c0991af939a22e26eb018a091b94e487770795a
+Installed-Size: 1625653
+Filename: dnsdist-full_1.9.4-pdns1_mips64_octeonplus.ipk
+Size: 1613220
+SHA256sum: 7cb9f229baad16946fc0669973c052ece3596640e1d9638b9125f35b79490899
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist-maindns
-Version: 1.9.3-pdns1
+Version: 1.9.4-pdns1
 Depends: libc, dnsdist, odhcpd
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: all
-Installed-Size: 101
-Filename: dnsdist-maindns_1.9.3-pdns1_all.ipk
-Size: 1133
-SHA256sum: f91fcd8f69e4f8f8613f8f431b042215ca4d02bef20a6bfcf8562cb357686662
+Installed-Size: 102
+Filename: dnsdist-maindns_1.9.4-pdns1_all.ipk
+Size: 1134
+SHA256sum: 5d4170430e704903b917309971408248883ba85208dd9e9b306ab9badc4f6d4d
 Description:  This package disables dnsmasq so dnsdist can become the main DNS on the CPE
 
 Package: dnsdist
-Version: 1.9.3-pdns1
+Version: 1.9.4-pdns1
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libnghttp2-14, libopenssl3
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: mips64_octeonplus
-Installed-Size: 899907
-Filename: dnsdist_1.9.3-pdns1_mips64_octeonplus.ipk
-Size: 897506
-SHA256sum: 29b422c53ea0260c1296d1e0caf9faf78cd83052bd0ccfbbc822e82d73c284d1
+Installed-Size: 900450
+Filename: dnsdist_1.9.4-pdns1_mips64_octeonplus.ipk
+Size: 898008
+SHA256sum: 243c36acaf7b53dba954947010eb3e034c70a795fb10ce4206af79096896f812
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
