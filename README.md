@@ -80,4 +80,4 @@ root@OpenWrt:~# /etc/init.d/dnsdist restart
 This workaround example uses Quad9's resolver (which dnsdist will auto-upgrade to DoT).
 You can of course substitute your own preferred resolver.
 
-<!-- 9 -->
+<!-- 10 -->
