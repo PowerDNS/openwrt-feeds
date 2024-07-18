@@ -1,1 +1,1 @@
-{"architecture": "x86_64", "packages":{"dnsdist-full": "1.9.5-pdns1", "dnsdist-maindns": "1.9.5-pdns1", "dnsdist": "1.9.5-pdns1"}}
+{"architecture": "x86_64", "packages":{"dnsdist-full": "1.9.6-pdns1", "dnsdist-maindns": "1.9.6-pdns1", "dnsdist": "1.9.6-pdns1"}}
