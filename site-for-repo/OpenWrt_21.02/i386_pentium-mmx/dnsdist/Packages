@@ -1,0 +1,44 @@
+Package: dnsdist-full
+Version: 1.9.7-pdns1
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
+Provides: dnsdist
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:powerdns:dnsdist
+Architecture: i386_pentium-mmx
+Installed-Size: 1622626
+Filename: dnsdist-full_1.9.7-pdns1_i386_pentium-mmx.ipk
+Size: 1616719
+SHA256sum: bbb8e1f6d79e3b420e0b34f26ac8fd80a9d03a68bdbde14e33a84b604e1ed48b
+Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
+ is to route traffic to the best server, delivering top performance to legitimate
+ users while shunting or blocking abusive traffic.
+
+Package: dnsdist-maindns
+Version: 1.9.7-pdns1
+Depends: libc, dnsdist, odhcpd
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:powerdns:dnsdist
+Architecture: all
+Installed-Size: 96
+Filename: dnsdist-maindns_1.9.7-pdns1_all.ipk
+Size: 1110
+SHA256sum: ded61a728327667b4c92c2c1bef349601ef9f093a11ad43b5101249205e254a1
+Description:  This package disables dnsmasq so dnsdist can become the main DNS on the CPE
+
+Package: dnsdist
+Version: 1.9.7-pdns1
+Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libnghttp2-14, libopenssl1.1
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:powerdns:dnsdist
+Architecture: i386_pentium-mmx
+Installed-Size: 783534
+Filename: dnsdist_1.9.7-pdns1_i386_pentium-mmx.ipk
+Size: 784574
+SHA256sum: 9d9392b0a12c3687a8a28f003cb00466a1008cc96db602d4aa94fb1ba5449686
+Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
+ is to route traffic to the best server, delivering top performance to legitimate
+ users while shunting or blocking abusive traffic.
+

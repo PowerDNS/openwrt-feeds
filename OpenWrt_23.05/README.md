@@ -3,6 +3,7 @@ OpenWrt 23.05 repository for dnsdist
 
 Select the architecture that matches your device (use `opkg print-architecture` to get the architecture):
 
+* [aarch64_cortex-a53](aarch64_cortex-a53/)
 * [aarch64_cortex-a72](aarch64_cortex-a72/)
 * [aarch64_generic](aarch64_generic/)
 * [arm_arm1176jzf-s_vfp](arm_arm1176jzf-s_vfp/)
