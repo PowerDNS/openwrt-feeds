@@ -1,1 +1,1 @@
-{"architecture": "arm_fa526", "packages":{"dnsdist-full": "1.9.7-pdns1", "dnsdist-maindns": "1.9.7-pdns1", "dnsdist": "1.9.7-pdns1"}}
+{"architecture": "arm_fa526", "packages":{"dnsdist-full": "1.9.8-pdns1", "dnsdist-maindns": "1.9.8-pdns1", "dnsdist": "1.9.8-pdns1"}}

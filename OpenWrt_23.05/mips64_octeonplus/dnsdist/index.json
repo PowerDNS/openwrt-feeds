@@ -1,1 +1,1 @@
-{"architecture": "mips64_octeonplus", "packages":{"dnsdist-full": "1.9.7-pdns1", "dnsdist-maindns": "1.9.7-pdns1", "dnsdist": "1.9.7-pdns1"}}
+{"architecture": "mips64_octeonplus", "packages":{"dnsdist-full": "1.9.8-pdns1", "dnsdist-maindns": "1.9.8-pdns1", "dnsdist": "1.9.8-pdns1"}}

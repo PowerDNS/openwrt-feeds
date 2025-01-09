@@ -1,1 +1,1 @@
-{"architecture": "aarch64_generic", "packages":{"dnsdist-full": "1.9.7-pdns1", "dnsdist-maindns": "1.9.7-pdns1", "dnsdist": "1.9.7-pdns1"}}
+{"architecture": "aarch64_generic", "packages":{"dnsdist-full": "1.9.8-pdns1", "dnsdist-maindns": "1.9.8-pdns1", "dnsdist": "1.9.8-pdns1"}}
