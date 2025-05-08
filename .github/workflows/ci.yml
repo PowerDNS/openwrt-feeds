@@ -86,7 +86,7 @@ jobs:
           find sdk/"${MATRIX_SDK_FILENAME%.tar.xz}"/bin/packages/${{ matrix.arch }} -ls
           rsync -av sdk/"${MATRIX_SDK_FILENAME%.tar.xz}"/bin/packages/${{ matrix.arch }}/dnsdist OpenWrt_${{ matrix.major }}/${{ matrix.arch }}
           tar cf OpenWrt_${{ matrix.major }}-${{ matrix.arch }}.tar OpenWrt_${{ matrix.major }}
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: OpenWrt_${{ matrix.major }}-${{ matrix.arch }}
           path: OpenWrt_${{ matrix.major }}-${{ matrix.arch }}.tar
@@ -105,7 +105,7 @@ jobs:
       - name: Flush existing files
         run: rm -rf OpenWrt_*
       # Without any parameters, download-artifact grabs everything, which is what we want
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
       - name: Extract artifacts
         run: |
           for tarball in OpenWrt_*-*/*.tar; do
@@ -144,7 +144,7 @@ jobs:
           destination: ./_site
           future: false
       - name: Prepare artifact for repo.powerdns.com
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           path: ./_site
           name: site-for-repo
@@ -155,7 +155,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: deploy
     steps:
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: site-for-repo
       - run: find . -ls
