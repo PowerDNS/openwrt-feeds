@@ -1,1 +1,1 @@
-{"architecture": "arm_arm1176jzf-s_vfp", "packages":{"dnsdist-full": "1.9.8-pdns1", "dnsdist-maindns": "1.9.8-pdns1", "dnsdist": "1.9.8-pdns1"}}
+{"architecture": "arm_arm1176jzf-s_vfp", "packages":{"dnsdist-full": "1.9.9-pdns1", "dnsdist-maindns": "1.9.9-pdns1", "dnsdist": "1.9.9-pdns1"}}
