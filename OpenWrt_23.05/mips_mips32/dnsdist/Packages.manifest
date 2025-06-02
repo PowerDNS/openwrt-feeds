@@ -1,5 +1,5 @@
 Package: dnsdist-full
-Version: 1.9.9-pdns1
+Version: 1.9.10-pdns1
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libnetsnmp, libnghttp2-14, libopenssl3, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
@@ -8,38 +8,38 @@ License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsdist:dnsdist
-SourceDateEpoch: 1746714800
+SourceDateEpoch: 1748865135
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>, Remi Gacogne <remi.gacogne@powerdns.com>
 Architecture: mips_mips32
-Installed-Size: 1643453
-Filename: dnsdist-full_1.9.9-pdns1_mips_mips32.ipk
-Size: 1630625
-SHA256sum: 21e97d144f66c987194bf5f8bbbe8405942c1d387e33e178f0874cec50fae800
+Installed-Size: 1646642
+Filename: dnsdist-full_1.9.10-pdns1_mips_mips32.ipk
+Size: 1633377
+SHA256sum: 3c95ed71200786795b3f4a4fb298e591844ed6b8261e51bfa988e133d8c4a5f2
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist-maindns
-Version: 1.9.9-pdns1
+Version: 1.9.10-pdns1
 Depends: libc, dnsdist, odhcpd
 Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
 SourceName: dnsdist-maindns
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1746714800
+SourceDateEpoch: 1748865135
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>, Remi Gacogne <remi.gacogne@powerdns.com>
 Architecture: all
-Installed-Size: 102
-Filename: dnsdist-maindns_1.9.9-pdns1_all.ipk
-Size: 1134
-SHA256sum: 72b2fb7f9e66f5d0e2e7072a0c08856552e2b84c5070914286d773f9edd99694
+Installed-Size: 101
+Filename: dnsdist-maindns_1.9.10-pdns1_all.ipk
+Size: 1138
+SHA256sum: 7180d7686c91e0c15fc3b7bb4695f8cbf0b9084ee67369fc755f51c6a0ed31b9
 Description:  This package disables dnsmasq so dnsdist can become the main DNS on the CPE
 
 Package: dnsdist
-Version: 1.9.9-pdns1
+Version: 1.9.10-pdns1
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libnghttp2-14, libopenssl3
 Source: /home/runner/work/openwrt-feeds/openwrt-feeds/package/dnsdist
 SourceName: dnsdist
@@ -47,14 +47,14 @@ License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsdist:dnsdist
-SourceDateEpoch: 1746714800
+SourceDateEpoch: 1748865135
 CPE-ID: cpe:/a:powerdns:dnsdist
 Maintainer: Peter van Dijk <peter.van.dijk@powerdns.com>, Remi Gacogne <remi.gacogne@powerdns.com>
 Architecture: mips_mips32
-Installed-Size: 764622
-Filename: dnsdist_1.9.9-pdns1_mips_mips32.ipk
-Size: 760470
-SHA256sum: 658ccf64709fa4a9eceface50eea403cc954ce5c5741609ebcc863d072996612
+Installed-Size: 765056
+Filename: dnsdist_1.9.10-pdns1_mips_mips32.ipk
+Size: 761075
+SHA256sum: 11b459bb837a35eeba388e26f88c2879d5b3e69ea1c09fde6e1ab0a2276b859b
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

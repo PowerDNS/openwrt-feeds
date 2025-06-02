@@ -1,1 +1,1 @@
-{"architecture": "arm_cortex-a9_vfpv3-d16", "packages":{"dnsdist-full": "1.9.9-pdns1", "dnsdist-maindns": "1.9.9-pdns1", "dnsdist": "1.9.9-pdns1"}}
+{"architecture": "arm_cortex-a9_vfpv3-d16", "packages":{"dnsdist-full": "1.9.10-pdns1", "dnsdist-maindns": "1.9.10-pdns1", "dnsdist": "1.9.10-pdns1"}}

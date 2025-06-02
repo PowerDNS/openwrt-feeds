@@ -1,1 +1,1 @@
-{"architecture": "arm_arm926ej-s", "packages":{"dnsdist-full": "1.9.9-pdns1", "dnsdist-maindns": "1.9.9-pdns1", "dnsdist": "1.9.9-pdns1"}}
+{"architecture": "arm_arm926ej-s", "packages":{"dnsdist-full": "1.9.10-pdns1", "dnsdist-maindns": "1.9.10-pdns1", "dnsdist": "1.9.10-pdns1"}}

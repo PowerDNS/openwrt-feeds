@@ -1,43 +1,43 @@
 Package: dnsdist-full
-Version: 1.9.9-pdns1
+Version: 1.9.10-pdns1
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libedit, libfstrm, libgnutls, libnetsnmp, libnghttp2-14, libopenssl1.1, libsodium, lmdb, tinycdb1, re2-6
 Provides: dnsdist
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1887282
-Filename: dnsdist-full_1.9.9-pdns1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1879852
-SHA256sum: 76ceb6594bb2767219fc971561254acbb2f79a819b6a2773e22059f572d1cc0d
+Installed-Size: 1889415
+Filename: dnsdist-full_1.9.10-pdns1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 1881866
+SHA256sum: 5deadf9914ca3049ad0b4025df2a052530fa9908f835164167717b94e030fbe7
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.
 
 Package: dnsdist-maindns
-Version: 1.9.9-pdns1
+Version: 1.9.10-pdns1
 Depends: libc, dnsdist, odhcpd
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: all
-Installed-Size: 96
-Filename: dnsdist-maindns_1.9.9-pdns1_all.ipk
-Size: 1109
-SHA256sum: 5ff8147af3088bed4ec8c1e7e422213b2f716504849d0f4e8fcbcb0598c8be28
+Installed-Size: 95
+Filename: dnsdist-maindns_1.9.10-pdns1_all.ipk
+Size: 1108
+SHA256sum: 9b39d77f9b3f7b643947749b8e7e0e6f832f638287e24d47bc9600456209217d
 Description:  This package disables dnsmasq so dnsdist can become the main DNS on the CPE
 
 Package: dnsdist
-Version: 1.9.9-pdns1
+Version: 1.9.10-pdns1
 Depends: libc, ca-bundle, libatomic1, libcap, libstdcpp6, libubox-lua, libubus-lua, libuci-lua, luajit, luafilesystem, libnghttp2-14, libopenssl1.1
 License: GPL-2.0-only
 Section: net
 CPE-ID: cpe:/a:powerdns:dnsdist
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 821362
-Filename: dnsdist_1.9.9-pdns1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 821033
-SHA256sum: b0f635618ae09ef8e4f75072504e3e3ea3528347063e3ab9ffc022ac45c836a8
+Installed-Size: 822370
+Filename: dnsdist_1.9.10-pdns1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 822031
+SHA256sum: a78ce808df5e3f3e4bcf0750b6e7b834d8368f1aabe84a081293a4020462f93d
 Description:  dnsdist is a highly DNS-, DoS- and abuse-aware loadbalancer. Its goal in life
  is to route traffic to the best server, delivering top performance to legitimate
  users while shunting or blocking abusive traffic.

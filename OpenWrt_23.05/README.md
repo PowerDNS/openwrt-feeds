@@ -11,7 +11,6 @@ Select the architecture that matches your device (use `opkg print-architecture` 
 * [arm_cortex-a15_neon-vfpv4](arm_cortex-a15_neon-vfpv4/)
 * [arm_cortex-a5_vfpv4](arm_cortex-a5_vfpv4/)
 * [arm_cortex-a7](arm_cortex-a7/)
-* [arm_cortex-a7_neon-vfpv4](arm_cortex-a7_neon-vfpv4/)
 * [arm_cortex-a7_vfpv4](arm_cortex-a7_vfpv4/)
 * [arm_cortex-a8_vfpv3](arm_cortex-a8_vfpv3/)
 * [arm_cortex-a9](arm_cortex-a9/)
